@@ -1,0 +1,8 @@
+[package]
+name = "file_destroyer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+file_destroy = { path="../file_destroy" }
+windows = { version = "0.58.0", features = ["Win32_Foundation", "Win32_UI_WindowsAndMessaging"] }
