@@ -3,3 +3,4 @@ members = [
     "file_destroy",
     "file_destroyer"
 ]
+resolver = "2"
